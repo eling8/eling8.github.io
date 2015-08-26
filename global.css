@@ -7,6 +7,10 @@
 	margin: 0em;
 }
 
+.center * {
+	text-align: center;
+}
+
 /*************/
 /* HOME PAGE */
 /*************/
