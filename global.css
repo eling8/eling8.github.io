@@ -1,0 +1,163 @@
+.blue {
+	color: #0099CC;
+}
+
+* {
+	padding: 0em;
+	margin: 0em;
+}
+
+html, body {
+	heigh: 100%;
+}
+
+/*************/
+/* HOME PAGE */
+/*************/
+
+div#header_big {
+	font-size: 8em;
+	font-family: Fjalla One;
+	text-align: center;
+	margin-top: 1em;
+}
+
+#tabs_big {
+	font-family: Josefin Sans;
+	text-align: center;
+	font-size: 1.6em;
+}
+
+#tabs_big a:link, #tabs_big a:visited, #tabs_big a {
+	text-decoration: none;
+	color: black;
+	margin-left: .5em;
+	margin-right: .5em;
+}
+
+#tabs_big a:hover {
+	text-decoration: underline;
+	color: #0099CC;
+}
+
+/*************/
+/* HEADER */
+/*************/
+
+div#header_small {
+	font-size: 5em;
+	font-family: Fjalla One;
+	text-align: left;
+	margin-top: .2em;
+	padding-left: .2em;
+}
+
+#tabs_small {
+	font-family: Josefin Sans;
+	text-align: right;
+	font-size: 1.2em;
+	padding-right: .4em;
+}
+
+#tabs_small a:link, #tabs_small a:visited {
+	text-decoration: none;
+	color: black;
+	margin-left: .2em;
+	margin-right: .2em;
+}
+
+#tabs_small a:hover {
+	text-decoration: underline;
+	color: #0099CC;
+}
+
+#tabs_small a#selected {
+	color: #0099CC;
+}
+
+section#header {
+    margin: auto;
+    position: fixed;
+    z-index: 9999;
+    background-color: white;
+    height: 7.8em;
+    top: 0em;
+    left: 0em;
+    right: 0em;
+    min-width: 49em;
+}
+
+div#header_small {
+    float: left;
+    display: inline-block;
+}
+
+div#tabs_small {
+    float: right;
+    margin-top: 4.3em;
+    display: inline-block;
+}
+
+div#bar {
+	height: .5em;
+	width: 100%;
+	background-color: #0099CC;
+	clear: both;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+/*************/
+/* FOOTER */
+/*************/
+section#footer {
+	margin: auto;
+	padding-bottom: 1em;
+	text-align: center;
+	left: 0em;
+	right: 0em;
+	height: 5em;
+}
+
+img.icon {
+	width: 5em;
+	-webkit-filter: grayscale(1);
+}
+
+a:hover img.icon {
+	-webkit-filter: grayscale(0);
+}
+
+/*************/
+/* BODY */
+/*************/
+
+section#body {
+	margin: auto;
+	width: 80%;
+	max-width: 60em;
+	text-align: left;
+	font-family: Open Sans;
+	padding-top: 8em;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -5em;
+}
+
+section#body * {
+	margin: 1em;
+}
+
+.push {
+	height: 5em;
+}
+
+/*************/
+/* GENERAL */
+/*************/
+
+a.no_style_link:link, a.no_style_link:visited {
+	text-decoration: none;
+	color: black;
+}
