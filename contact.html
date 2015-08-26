@@ -14,30 +14,29 @@
 	<section id='header'>
 		<a class='no_style_link' href='index.html'><div id='header_small'><span class='blue'>EMILY</span>LING</div></a>
 		<div id='tabs_small'>
-			<a id='selected' href='about.html'>ABOUT</a> 
+			<a href='about.html'>ABOUT</a> 
 			<a href='resume.html'>RESUME</a> 
 			<a href='https://emilyxling.wordpress.com/'>BLOG</a> 
 			<a href='projects.html'>PROJECTS</a> 
-			<a href='contact.html'>CONTACT</a>
+			<a id='selected' href='contact.html'>CONTACT</a>
 		</div>
 		<div id='bar' class='blue'></div>
 	</section>
 	
 	<section id='body'>
+		<h2>Leave a message!</h2>
 		<form action="//formspree.io/eling8@stanford.edu" method="POST">
-			<input type="hidden" name="_subject" value="New submission!"/>
-			<br/>
+			<input type="hidden" name="_subject" value="New email from emilyling.me"/>
 		    <input type="text" name="name" placeholder="Your name"/>
+		    <br/>
+		    <textarea name="message" rows="5" placeholder="Your message"></textarea>
 		    <br/>
 		    <input type="text" name="_replyto" placeholder="Your email"/>
 		    <br/>
 		    <input type="text" name="_gotcha" style="display:none"/>
-		    <br/>
 		    <input type="submit" value="Send"/>
 		</form>
-	<div class="push"></div>
 	</section>
-
 
 	<section id='footer'>
 		<a href= "mailto:eling8@stanford.edu"><img class='icon' src='icon-email.png'/></a>
