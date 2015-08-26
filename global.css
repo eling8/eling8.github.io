@@ -1,16 +1,3 @@
-.blue {
-	color: #0099CC;
-}
-
-* {
-	padding: 0em;
-	margin: 0em;
-}
-
-.center * {
-	text-align: center;
-}
-
 /*************/
 /* HOME PAGE */
 /*************/
@@ -148,10 +135,30 @@ section#body * {
 }
 
 /*************/
+/* CONTACT */
+/*************/
+
+#contact_form * {
+	width: 25em;
+}
+
+/*************/
 /* GENERAL */
 /*************/
 
 a.no_style_link:link, a.no_style_link:visited {
 	text-decoration: none;
 	color: black;
+}
+.blue {
+	color: #0099CC;
+}
+
+* {
+	padding: 0em;
+	margin: 0em;
+}
+
+.center * {
+	text-align: center;
 }
